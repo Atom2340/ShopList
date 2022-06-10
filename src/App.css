@@ -1,3 +1,9 @@
+body{
+  background: #4d244e;
+  font-family: sans-serif;
+  border-top: 5px solid #aa8e8d;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +11,64 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.container {
+  display: block;
+  margin-top:10px;
+  margin-bottom: 5px;
+  
+  
+}
+
+.shop-form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+ 
+  
+}
+
+.input-field {
+  width: 100%;
+  height: 30px;
+  margin-top: 25px;
+  border: 2px ridge yellowgreen;
+}
+
+.btn {
+  width: 100%;
+  height: 30px;
+  background-color: lime;
+}
+
+.shop-list {
+  overflow: auto;
+}
+
+.gre{
+  width: 100%;
+  height: 200px;
+  top: 20%;
+  left: 0px; 
+  right: 0px;
+  margin: 0px auto; background: #ae5f75;
+  display: flex;
+  border-bottom: 1px solid #2C3E50;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-indent: 20px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+  position: relative;
+  padding: 5px;
+  box-sizing: content-box;
+  flex-direction: column;
+
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,14 +78,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: #4d244e;
+  font-family: sans-serif;
+  border-top: 5px solid #aa8e8d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content : first baseline;
   font-size: calc(10px + 2vmin);
   color: white;
+
+  
 }
 
 .App-link {
